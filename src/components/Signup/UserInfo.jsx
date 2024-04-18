@@ -44,7 +44,7 @@ const UserInfo = ({ setStep }) => {
     }
     if (!data.email.trim()) {
       errors.email = "Email is required";
-    }else if (!/^\w+([\.-]?w+)*@\w+([\.-]?w+)*(\.\w{2,3})+$/.test(data.email)){
+    }else if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(data.email)){
       errors.email = "Not a valid email";
     }
     if (!data.password.trim()) {
