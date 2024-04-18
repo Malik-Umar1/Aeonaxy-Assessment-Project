@@ -35,6 +35,7 @@ const UserProfile = ({setStep}) => {
         <img
           className="h-20 w-30 bg-[#F2D184]"
           src="https://logowik.com/content/uploads/images/dribbble.jpg"
+          alt=""
         ></img>
       </div>
       <div className="heading ml-8 sm:ml-96">
@@ -69,6 +70,7 @@ const UserProfile = ({setStep}) => {
                   position: "absolute",
                   objectFit: "cover",
                 }}
+                alt=""
               />
               <span className="text-3xl" role="img" aria-label="camera icon">
                 📷

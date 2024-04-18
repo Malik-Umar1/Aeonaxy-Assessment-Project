@@ -44,7 +44,7 @@ const UserInfo = ({ setStep }) => {
     }
     if (!data.email.trim()) {
       errors.email = "Email is required";
-    }else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(data.email)){
+    }else if (!/^\w+([\.-]?w+)*@\w+([\.-]?w+)*(\.\w{2,3})+$/.test(data.email)){
       errors.email = "Not a valid email";
     }
     if (!data.password.trim()) {
@@ -63,6 +63,7 @@ const UserInfo = ({ setStep }) => {
           <img
             className="h-20 w-30 bg-[#F2D184]"
             src="https://logowik.com/content/uploads/images/dribbble.jpg"
+            alt=""
           ></img>
         </div>
 
@@ -78,9 +79,9 @@ const UserInfo = ({ setStep }) => {
         </div>
         <span>
           Art by{" "}
-          <a href="#" className="text-[red]">
+          <span className="text-[red]">
             Peter Tarka
-          </a>
+          </span>
         </span>
       </div>
 
@@ -88,9 +89,9 @@ const UserInfo = ({ setStep }) => {
         <div className="max-w-64 ml-44 mt-12 mb-12 sm:min-w-44 sm:ml-51 sm:mb-10 absolute top-1 left-3/4">
           <h3 className="text-sm w-full font-semibold">
             Already a member?{" "}
-            <a href="#" className="text-[#4B3F9A]">
+            <span className="text-[#4B3F9A]">
               Sign in
-            </a>
+            </span>
           </h3>
         </div>
         <div className="form-container mt-12">

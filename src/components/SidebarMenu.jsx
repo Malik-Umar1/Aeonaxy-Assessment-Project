@@ -24,11 +24,11 @@ function SidebarMenu() {
         
       </div>
       <ul id="menu" className={`md:flex flex-col bg-[#ccc] w-screen z-10 ml-3 h-44  gap-2 mt-2 md:mt-7 mr-10 font-semibold ${showMenu ? '' : 'hidden'}`}>
-        <li className='mb-3 '><a href="#">Inspiration</a></li>
-        <li className='mb-3'><a href="#">Find Work</a></li>
-        <li className='mb-3'><a href="#">Learn Design</a></li>
-        <li className='mb-3'><a href="#">Go Pro</a></li>
-        <li className='mb-3'><a href="#">Hire Designers</a></li>
+        <li className='mb-3 '>Inspiration</li>
+        <li className='mb-3'>Find Work</li>
+        <li className='mb-3'>Learn Design</li>
+        <li className='mb-3'>Go Pro</li>
+        <li className='mb-3'>Hire Designers</li>
       </ul>
     </div>
   );

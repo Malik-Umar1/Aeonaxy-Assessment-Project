@@ -16,29 +16,30 @@ const UserVerification = () => {
       <div className="logo-container ml-5 mb-8 md:mb-16 mt-5 md:mt-0 flex justify-between items-center">
         <div className="flex md:gap-5">
           
-            <a href="#" className="hidden md:flex">
+            <div className="hidden md:flex">
               {" "}
               <img
                 className="h-32 w-32 md:h-20 md:w-30 bg-[#F2D184]"
                 src="https://logowik.com/content/uploads/images/dribbble.jpg"
+                alt=""
               ></img>
-            </a>
+            </div>
             
           <ul className="hidden gap-5 sm:flex">
           <li className="mt-7 font-semibold">
-            <a href="#">Inspiration</a>
+            Inspiration
           </li>
           <li className="mt-7 font-semibold">
-            <a href="#">Find Work</a>
+            Find Work
           </li>
           <li className="mt-7 font-semibold">
-            <a href="#">Learn Design</a>
+            Learn Design
           </li>
           <li className="mt-7 font-semibold">
-            <a href="#">Go Pro</a>
+            Go Pro
           </li>
           <li className="mt-7 font-semibold">
-            <a href="#">Hire Designers</a>
+            Hire Designers
           </li>
           </ul>
           
@@ -78,12 +79,12 @@ const UserVerification = () => {
         <p className="mt-5 text-lg">
           Didn't receive the email? Check your spam folder, it may have been
           caught by a filter. If you still don't see it , you can{" "}
-          <a href="#" className="text-lg text-[#DE4C85] font-semibold">
+          <span className="text-lg text-[#DE4C85] font-semibold">
             resend the confirmation email
-          </a>
+          </span>
           .
         </p>
-        <h2 className="mt-5 text-lg">Wrong email address? <a href="#" className="text-lg text-[#DE4C85] font-semibold">Change it.</a></h2>
+        <h2 className="mt-5 text-lg">Wrong email address? <span className="text-lg text-[#DE4C85] font-semibold">Change it.</span></h2>
       </div>
 
       <footer className="mt-16 md:mt-36 flex flex-col md:flex-row bg-[#FAFAFA] border-b-2">
@@ -91,6 +92,7 @@ const UserVerification = () => {
         <img
           className="h-20 w-30 bg-[#F2D184]"
           src="https://logowik.com/content/uploads/images/dribbble.jpg"
+          alt=""
         ></img>
          <div className="max-w-56 ">
         <p>Dribble is the world's leading community for creatives to share, grow, and get hired. </p>

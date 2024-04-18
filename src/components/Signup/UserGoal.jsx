@@ -34,6 +34,7 @@ const UserGoal = ({setStep}) => {
         <img
           className="h-20 w-30 bg-[#F2D184]"
           src="https://logowik.com/content/uploads/images/dribbble.jpg"
+          alt=""
         ></img>
       </div>
 
